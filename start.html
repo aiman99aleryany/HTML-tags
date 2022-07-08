@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
   <head>
+    <!-- added the base element to open links in different tabs -->
     <base target="_blank" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
@@ -53,27 +54,33 @@
 
         <section>
           <h4>Inside the body there are some sections.</h4>
-          This is a quotation: Hello world.
+          <p style="display: inline">
+            This is a quotation:
+            <cite cite="https://commons.wikimedia.org/wiki/File:HelloWorld.svg"
+              >Hello world</cite
+            >
+          </p>
         </section>
 
         <section>
-          This is a superscript text: text
+          This is a superscript text: <sup>text</sup>
           <br />
-          This is a subscript text: text
+          This is a subscript text: <sub>text</sub>
         </section>
 
         <section>
-          This is an emphasized text: text
+          This is an emphasized text: <i>text</i>
           <br />
-          This is a bold text: text
+          This is a bold text: <b>text</b>
         </section>
       </article>
     </main>
 
     <footer>
-      This is the end of the page
-      <br />
-      This a paragraph.
+      <p>
+        <b> This is the end of the page </b>
+      </p>
+      <p>This a paragraph.</p>
     </footer>
   </body>
 </html>
